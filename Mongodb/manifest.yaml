@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   name: mongodb
-  workspace: roboshop
+  namespace: roboshop
   labels:
     project: roboshop
     tier: db
@@ -14,17 +14,17 @@ spec:
       project: roboshop
       tier: db
       component: mongodb
-template:
-  metadata:
-    labels:
-      project: roboshop
-      tier: db
-      component: mongodb
-  spec:
-    containers:
-    - name: mongodb
-      image: talarisureshdevops/mongodb:2.0.0
-      
+  template:
+    metadata:
+      labels:
+        project: roboshop
+        tier: db
+        component: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: talarisureshdevops/mongodb:2.0.0
+
 ---
 
 apiVersion: v1
