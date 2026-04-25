@@ -38,7 +38,7 @@ metadata:
     component: mongodb
 spec:
   selector:
-    name: roboshop
+    project: roboshop
     tier: db
     component: mongodb
   ports:
