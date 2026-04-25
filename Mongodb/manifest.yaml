@@ -33,7 +33,7 @@ metadata:
   name: mongodb
   namespace: roboshop
   labels:
-    name: roboshop
+    project: roboshop
     tier: db
     component: mongodb
 spec:
