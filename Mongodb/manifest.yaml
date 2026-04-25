@@ -24,7 +24,8 @@ template:
     containers:
     - name: mongodb
       image: talarisureshdevops/mongodb:2.0.0
-----------
+      
+---
 
 apiVersion: v1
 kind: Service
