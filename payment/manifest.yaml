@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: joindevops/payment:2.0.0
+        image: talarisureshdevops/payment:2.0.0
         imagePullPolicy: Always # safe to pull everytime, there may be images with same version rebuilt and pushed
         resources:
           requests:
