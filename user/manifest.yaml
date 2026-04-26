@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: joindevops/user:2.0.0
+        image: talarisureshdevops/user:2.0.0
         imagePullPolicy: Always # safe to pull everytime, there may be images with same version rebuilt and pushed
         resources:
           requests:
