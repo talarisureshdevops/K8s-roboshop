@@ -41,7 +41,7 @@ spec:
         image: talarisureshdevops/cart:2.0.0
         imagePullPolicy: Always
         resources:
-          request:
+          requests:
             cpu: "100m"
             memory: "128Mi"
           limits:
