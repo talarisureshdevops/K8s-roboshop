@@ -121,12 +121,12 @@ spec:
             port: 80
           failureThreshold: 2
           periodSeconds: 10
-          initialDelaySeconds: 15
+          initialDelaySeconds: 60
         livenessProbe:
           httpGet:
             path: /
             port: 80
-          failureThreshold: 2
+          failureThreshold: 3
           periodSeconds: 10
         volumeMounts:
         - name: nginx-config
