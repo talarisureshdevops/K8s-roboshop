@@ -22,7 +22,7 @@ metadata:
     tier: backend
     component: shipping
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     # using these labels replica set selects the pod
     matchLabels:
